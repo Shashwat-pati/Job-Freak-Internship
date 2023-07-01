@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Navigation Bar</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/abb7df0121.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="menu">
+                <input type="radio" name="slider" id="nav-home" checked />
+                <input type="radio" name="slider" id="nav-contact" checked />
+                <input
+                    type="radio"
+                    name="slider"
+                    id="nav-information"
+                    checked
+                />
+                <input type="radio" name="slider" id="nav-guide" checked />
+
+                <nav>
+                    <div class="slider"></div>
+
+                    <label for="nav-home" class="nav-home">
+                        <i class="fas fa-home"></i>
+                        <a href="#home"> Home</a>
+                    </label>
+                    <label for="nav-contact" class="nav-contact">
+                        <i class="fas fa-user"></i>
+                        <a href="#contact"> Contact</a>
+                    </label>
+                    <label for="nav-information" class="nav-information">
+                        <i class="fas fa-blog"></i
+                        ><a href="#information"> Information</a>
+                    </label>
+                    <label for="nav-guide" class="nav-guide">
+                        <i class="fa-solid fa-info"></i
+                        ><a href="#guide"> Guide</a>
+                    </label>
+                </nav>
+            </div>
+
+            <!-- ------------------ DETAILS --------------------- -->
+            <div class="contents">
+                <!-----Home----->
+                <section class="home" id="home">
+                    <div class="home-text">
+                        <h4>Hello</h4>
+                        <h1>
+                            I'm Shashwat <br />
+                            Pati
+                        </h1>
+                        <h3>Front-End Developer</h3>
+                        <a href="#" class="btn">Hire Me</a>
+                    </div>
+                </section>
+
+                <!----- Contact ---->
+                <section class="contact" id="contact">
+                    <div class="contact-text">
+                        <h2>Contact Me</h2>
+                        <h4>Let's Work Together</h4>
+                        <p>
+                            I want to work with your firm in order to expand my
+                            skills & experience for my future professional
+                            career.
+                        </p>
+                        <div class="contact-list">
+                            <li>
+                                <a href="#"
+                                    >Kansbahal - Sundargarh - Odisha - India</a
+                                >
+                            </li>
+                            <li><a href="#">shashwat10@gmail.com</a></li>
+                            <li><a href="#"> 123456789 </a></li>
+                        </div>
+                        <div class="contact-icons">
+                            <a href="#"
+                                ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-square-facebook"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-square-behance"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-dribbble"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="">
+                            <input
+                                type="text"
+                                placeholder="Enter Your Name"
+                                required
+                            />
+                            <input
+                                type="email"
+                                placeholder="Enter Your Email-ID"
+                                required
+                            />
+                            <input
+                                type=""
+                                placeholder="Enter Your Subject"
+                                required
+                            />
+                            <textarea
+                                name=""
+                                id=""
+                                cols=""
+                                rows=""
+                                placeholder="Enter Your Message"
+                                required
+                            ></textarea>
+                            <input type="submit" value="Submit" class="send" />
+                        </form>
+                    </div>
+                </section>
+
+                <!----- Information ---->
+                <section class="information" id="information">
+                    <div class="main-text">
+                        <h2>Information</h2>
+                        <h4>Better Design, Better Experiences</h4>
+                    </div>
+                    <div class="information-content">
+                        <div class="box">
+                            <img src="/mobile.webp" />
+                            <h3>Mobile App Design</h3>
+                            <p>
+                                Mobile app design is the task of designing
+                                mobile applications. The concepts are developed
+                                in phases, from formless idea to precise message
+                                in an appropriate form.
+                            </p>
+                        </div>
+
+                        <div class="box">
+                            <img src="/web.jpg" />
+                            <h3>Website Design</h3>
+                            <p>
+                                Web app design is the process of creating a
+                                website application that delivers a seamless
+                                user experience (UX) and meets users' core needs
+                                with a clear, compelling user interface (UI).
+                            </p>
+                        </div>
+
+                        <div class="box">
+                            <img src="/video.webp" />
+                            <h3>Video Editing</h3>
+                            <p>
+                                What do you mean by video editing? Video editing
+                                is the art of manipulating and combining video
+                                files to create a completed video project.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!----- Guide ----->
+                <section class="guide" id="guide">
+                    <div class="guide-img">
+                        <img src="/about_image.jpg" />
+                    </div>
+
+                    <div class="guide-text">
+                        <h2>About Me</h2>
+                        <h4>Hi, I'm Here To Help You In Next Project</h4>
+                        <p>
+                            I have ample amount of experience HTML, CSS,
+                            Javascript, React.Js, Git & GitHub. I have also
+                            built different projects using this languages.I have
+                            developed a Travel & Stay web application using
+                            HTML,CSS & React.Js framework.
+                        </p>
+                        <div class="guide-gri">
+                            <div class="guide-in">
+                                <h5>1. Problem Solving</h5>
+                            </div>
+                            <div class="guide-in">
+                                <h5>2. Creative Idea</h5>
+                            </div>
+                            <div class="guide-in">
+                                <h5>3. Search a lot</h5>
+                            </div>
+                            <div class="guide-in">
+                                <h5>4. High Quality</h5>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn">Contact Me</a>
+                    </div>
+                </section>
+
+                <!-- Scroll-Top -->
+                <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="/script.js"></script>
+    </body>
+</html>
